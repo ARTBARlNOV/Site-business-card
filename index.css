@@ -1,0 +1,180 @@
+body {
+    font-family: fantasy;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+}
+
+.backgr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../core-css-layout-site/images/154406-blurred-gradient.jpeg) center no-repeat;
+    background-size: cover;
+}
+
+.backgr-title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.backgr-inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header-logo {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav-link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.2 linear;
+}
+
+.nav-link:after {
+content: "";
+display: block;
+width: 100%;
+height: 3px;
+display: none;
+background-color: #d4a98a;
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1;
+}
+
+.nav-link:hover {
+    color: #d4a98a;
+}
+
+.nav-link:hover:after {
+    display: block;
+}
+
+.sect {
+    padding: 80px 0;
+
+}
+
+.sect-header {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    color: black;
+}
+
+.sect-title {
+    font-family: fantasy;
+    font-size: 24px;
+    color: black;
+}
+
+.sect-subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.line {
+    color: #d48a8a;
+}
+
+.sect-title2 {
+    font-family: fantasy;
+    font-size: 24px;
+    color: black;
+    margin-top: 70px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-item {
+    color: black;
+    width: 25%;
+}
+.images-item:hover .images-image {
+    opacity: .7;
+}
+
+.sect-title3 {
+    font-family: fantasy;
+    font-size: 24px;
+    color: black;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.url1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    margin: 50px 0px 0 545px;
+}
+
+.url2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    margin: 50px 10px 0 0px;
+}
